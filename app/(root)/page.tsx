@@ -25,11 +25,11 @@ export default async function Home({ searchParams }: { searchParams: GetSearchPa
       <Container className="mt-10 pb-14">
         <div className="flex gap-[80px]">
           {/* Фильтрация */}
-          <div className="w-[250px]">
-            <Suspense>
-              <Filters />
-            </Suspense>
-          </div>
+          {/*<div className="w-[250px]">*/}
+          {/*  <Suspense>*/}
+          {/*    <Filters />*/}
+          {/*  </Suspense>*/}
+          {/*</div>*/}
 
           {/* Список товаров */}
           <div className="flex-1">
